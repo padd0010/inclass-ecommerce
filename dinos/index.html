@@ -1,0 +1,23 @@
+---
+layout: default
+title: Dinosaurs
+meta: All the dinos that have ever existed.
+---
+
+<h1>Dinosaurs</h1>
+<p>All the dinos that have ever existed.</p>
+
+<ul>
+	{% for dinos in site.pages %}
+	
+		{% if dinos.category == 'dinosaur' %}
+	
+		<li>
+		<img src="{{site.baseurl}}/images/{{dinos.image}}" alt="">
+		<a href="{{dinos.url}}">{{dinos.name}}</a></li>
+
+		{% endif %}
+
+	{% endfor %}
+</ul>
+
