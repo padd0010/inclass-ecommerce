@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: dinosaurs
 category: dinosaur
 name: Pteranodon
 time_period: Late Cretaceous
 diet: Carnivore
 image: air-dinos/pteranodon.jpg
+title: Pteranodon
 ---
 
 The Pteranodon is technically not a dinosaur.

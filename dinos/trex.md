@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: dinosaurs
 category: dinosaur
 name: Tyrannosaurs
 time_period: Late Cretaceous
 diet: Carnivore
 image: land-dinos/hadrosaur.jpg
+title: Tyrannosaurus
 ---
 
 The Tyrannosaurus is the mose fierce of all dinosaurs!
